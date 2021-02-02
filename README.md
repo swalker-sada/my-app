@@ -1,8 +1,8 @@
 #### To run this app you need have yarn and node installed in your computer
-    *this is only if you are going to run in it in your local computer, otherwise you should be fine
-        - Here are the links to that
-        For npm+node: https://www.npmjs.com/get-npm
-        For yarn: https://classic.yarnpkg.com/en/docs/install/#mac-stable
+   **this is only if you are going to run in it in your local computer, otherwise you should be fine**
+   - Here are the links to that
+       * npm+node: https://www.npmjs.com/get-npm
+       * yarn: https://classic.yarnpkg.com/en/docs/install/#mac-stable
         
         
         
@@ -18,17 +18,15 @@
  swalker@sada-hq-macpro186 my-app %
  ```
 
-    3. In the project directory, you can run:
+    3. Once in the project directory, you can run:
 
 ### `yarn start`
 
-Runs the app in the development mode.\
+This Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
 
 
 
