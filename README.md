@@ -1,5 +1,7 @@
 # Starting the app
 Open the Terminal in VS Code
+![alt text](https://user-images.githubusercontent.com/75445317/106660410-cfa09d00-6554-11eb-9ea2-5becda5976bf.png)
+
 
 
 
