@@ -1,12 +1,12 @@
 #### To run this app you need have yarn and node installed in your computer
    **this is only if you are going to run in it in your local computer, otherwise you should be fine**
    - Here are the links to that
-       * npm+node: https://www.npmjs.com/get-npm
+       * node: https://nodejs.org/en/
        * yarn: https://classic.yarnpkg.com/en/docs/install/#mac-stable
         
         
         
-# Starting the app
+# How to start the app
 
     1. Open the Terminal in VS Code
   
@@ -18,9 +18,11 @@
  swalker@sada-hq-macpro186 my-app %
  ```
 
-    3. Once in the project directory, you can run:
+    3. Once in the project directory run:
 
 ### `yarn start`
+ once you run that command it should take a minute or two for it to setup. If nothing happens click on the 
+ link below and that will take you to the right page
 
 This Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
