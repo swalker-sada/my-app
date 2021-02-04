@@ -1,19 +1,12 @@
-# Specify a base image
-FROM node:alpine
-
-WORKDIR /usr/src/code
-ADD . /code
-
-COPY package.json yarn.lock ./
-
-# Run yarn install
-RUN npm install -g npm@7.5.2
-RUN yarn install
-
-COPY . .
-
-# Build the project
-CMD ["yarn", "start"]
 
 
+FROM node as build-deps
+WORKDIR /usr/src/app
+COPY . ./
+RUN yarn
+RUN yarn build
+
+FROM nginx:alpine
+COPY --from=build-deps /usr/src/app/build /usr/share/nginx/html
 EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
